@@ -35,9 +35,8 @@ import {
 } from '../assets'
 
 
-// Import Tekisky separately
-import tekisky from "../assets/company/tekisky.png";
-
+// Import PH separately
+import ph from "../assets/company/ph-2.png"
 
 export const navLinks = [
 
@@ -154,13 +153,13 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
-    iconBg: "#383E56",
+    title: "Front-End Developer",
+    company_name: "Phenomtec Solutions Pvt. Ltd.",
+    icon: ph,
+    iconBg: "rgb(230 30 42)",
     date: "Jan 2023 - present",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
+      "Developing and maintaining web applications using Javascript frameworks.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
