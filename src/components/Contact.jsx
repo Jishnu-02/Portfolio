@@ -38,6 +38,8 @@ const Contact = () => {
     setLoading(true);
 
     const token = recaptchaRef.current.getValue(); // Get the token
+    console.log(recaptchaRef.current)
+    console.log(recaptchaRef.current.getValue())
     if (!token) {
       setLoading(false);
       alert("Please complete the CAPTCHA.");
