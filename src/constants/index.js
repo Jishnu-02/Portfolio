@@ -58,10 +58,6 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
-    icon: web,
-  },
-  {
     title: "Frontend Developer",
     icon: mobile,
   },
@@ -70,9 +66,13 @@ const services = [
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
-    icon: creator,
+    title: "Full-Stack Developer",
+    icon: web,
   },
+  // {
+  //   title: "Ui UX Designer",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -157,7 +157,7 @@ const experiences = [
     company_name: "Phenomtec Solutions Pvt. Ltd.",
     icon: ph,
     iconBg: "rgb(230 30 42)",
-    date: "Jan 2023 - present",
+    date: "Aug 2021 - jun 2025",
     points: [
       "Developing and maintaining web applications using Javascript frameworks.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
